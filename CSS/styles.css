@@ -5,3 +5,25 @@ background-color: #FFFFFF;
 a{text-decoration: none;
 color:black;
 }
+
+/* Header section */
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.logo-dark {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.header-address {}
+
+.header-address-item {}
+
+.header-address-link {}
+/*  */

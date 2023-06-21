@@ -1,29 +1,145 @@
-/* common styles */
 body{
-background-color: #FFFFFF;
+position: relative;
+width: 1440px;
+height: 2592px;
+background: #FFFFFF;
 }
-a{text-decoration: none;
-color:black;
+/* header section */
+.header {
 }
 
-/* Header section */
-.header {}
+.header-nav {
 
-.header-nav {}
+}
 
-.header-logo {}
+.header-logo {
+width: 44px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* IRIS */
+color: #4D5AE5;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
 
-.logo-dark {}
+.logo-dark {
+/* Studio */
+width: 71px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+ /* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* NAVY BLUE */
+color: #2E2F42;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
 
-.header-list {}
+.header-list {
+}
 
 .header-item {}
 
-.header-link {}
-
-.header-address {}
+.header-link {
+/* Studio */
+width: 48px;
+height: 24px;
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+ /* NAVY BLUE */
+color: #2E2F42;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.header-address {
+    /* info@devstudio.com */
+    color: #434455;
+}
 
 .header-address-item {}
 
 .header-address-link {}
-/*  */
+
+/* main block */
+/* hero section */
+.section-hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+
+    color: #FFFFFF;
+}
+
+.hero-btn {
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);    
+}
+/* Section-1 */
+.section-1 {}
+
+.title {}
+
+.section-1-list {}
+
+.section-1-item {}
+
+.titlest {}
+
+.section-1-text {}
+
+/* section-2 */
+.section-2 {}
+
+.title {}
+
+.section2-list {}
+
+.section2-foto {}
+
+/* section-3 */
+.section-3 {}
+
+.title {}
+
+.our-team-list {}
+
+.our-team-item {}
+
+.titlest {}
+/* Footer section */
+.footer {}
+
+.section {}
+
+.footer-logo {}
+
+.logo-dark {}
+
+.footer-text {}

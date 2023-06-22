@@ -1,106 +1,96 @@
 body{
-position: relative;
-width: 1440px;
-height: 2592px;
-background: #FFFFFF;
-}
-/* header section */
-.header {
+    font-family: roboto,
+    sans-serif;
 }
 
-.header-nav {
+.header {}
 
-}
+.header-nav {}
 
 .header-logo {
-width: 44px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-/* IRIS */
-color: #4D5AE5;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;}
+line-height: 1.17;
+color:#4D5AE5;}
 
 .logo-dark {
-/* Studio */
-width: 71px;
-height: 21px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
- /* identical to box height, or 117% */
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-/* NAVY BLUE */
+line-height: 1.17;
 color: #2E2F42;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 
-.header-list {
-}
+.header-list {}
 
-.header-item {}
+.header-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #2E2F42;
+ }
 
 .header-link {
-/* Studio */
-width: 48px;
-height: 24px;
-/* Body Medium */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-letter-spacing: 0.02em;
- /* NAVY BLUE */
-color: #2E2F42;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;}
-.header-address {
-    /* info@devstudio.com */
-    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #2E2F42;
+ }
+
+
+.header-address-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color:#434455;}
+
+.header-address-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color:#434455;
 }
-
-.header-address-item {}
-
-.header-address-link {}
 
 /* main block */
 /* hero section */
 .section-hero {
-    background-color: #2E2F42;
+background-color: #2E2F42;
 }
 
 .hero-title {
-
-    color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height:1.17;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
 }
 
 .hero-btn {
-background: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
+
 /* Section-1 */
 .section-1 {}
 
@@ -110,14 +100,35 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .section-1-item {}
 
-.titlest {}
+.titlest 
+   {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    color:#2E2F42;
+}
 
-.section-1-text {}
+.section-1-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #434455;
+}
 
 /* section-2 */
 .section-2 {}
 
-.title {}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11
+    color: #2E2F42;
+}
 
 .section2-list {}
 
@@ -126,20 +137,63 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 /* section-3 */
 .section-3 {}
 
-.title {}
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2E2F42;
+}
 
 .our-team-list {}
 
 .our-team-item {}
 
-.titlest {}
+.titlest {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    color: #2E2F42;
+}
+
+.titleprofeshun{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50
+    color: #434455;
+}
 /* Footer section */
-.footer {}
+.footer {
+    background: #2E2F42;
+}
 
 .section {}
 
-.footer-logo {}
+.footer-logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4D5AE5;
+}
 
-.logo-dark {}
+.logo-dark {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;}
 
-.footer-text {}
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+     color: #F4F4FD;
+    }

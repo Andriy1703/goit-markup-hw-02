@@ -1,6 +1,6 @@
 body{
-    font-family: roboto,
-    sans-serif;
+    font-family:'roboto', 'Raleway'
+    
 }
 
 .header {}
@@ -182,7 +182,7 @@ color: #FFFFFF;
     color: #4D5AE5;
 }
 
-.logo-dark {font-family: 'Raleway';
+.logo-white {font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;

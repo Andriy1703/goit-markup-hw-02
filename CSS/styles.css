@@ -1,7 +1,7 @@
 .body{
 font-family:'roboto', 'Raleway'
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 color: #2E2F42;
@@ -29,16 +29,13 @@ color: #2E2F42;
 .header-list {}
 
 .header-item {
-     font-family: 'roboto', 'Raleway'
-     font-style: normal;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.50;
      color: #2E2F42;
+}
 
 .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
@@ -47,17 +44,11 @@ color: #2E2F42;
 
 
 .header-address-item {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     color:#434455;}
 
 .header-address-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     color:#434455;
@@ -70,8 +61,6 @@ background-color: #2E2F42;
 }
 
 .hero-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height:1.17;
@@ -81,8 +70,6 @@ color: #FFFFFF;
 }
 
 .hero-btn {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
@@ -101,9 +88,7 @@ color: #FFFFFF;
 
 .section-1-item {}
 
-.titlest 
-   {font-family: 'Roboto';
-    font-style: normal;
+.titlest {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -111,9 +96,6 @@ color: #FFFFFF;
 }
 
 .section-1-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     color: #434455;
@@ -123,8 +105,6 @@ color: #FFFFFF;
 .section-2 {}
 
 .title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11
@@ -139,8 +119,6 @@ color: #FFFFFF;
 .section-3 {}
 
 .title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -152,8 +130,6 @@ color: #FFFFFF;
 .our-team-item {}
 
 .titlest {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -161,8 +137,6 @@ color: #FFFFFF;
 }
 
 .titleprofeshun{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50
@@ -203,20 +177,20 @@ color: #FFFFFF;
     /* Portfolio */
         .btn-link {
             font-family: Roboto;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.50;
-            letter-spacing: 0.04em;
-            }
-        .btn-all{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.50;
+                letter-spacing: 0.04em;}
+        .btn-all {
             background-color: rgba(64, 75, 191, 1);
-            color:rgba(255, 255, 255, 1);
-           }
+            color:#FFFFFF;
+        }
     
         .btn-web {
             background-color: rgba(231, 233, 252, 1);
             color: rgba(77, 90, 229, 1)
         }
+    
         .btn-app {
             background-color: rgba(231, 233, 252, 1);
             color: rgba(77, 90, 229, 1)
@@ -225,17 +199,16 @@ color: #FFFFFF;
         .btn-desing {
             background-color: rgba(231, 233, 252, 1);
             color: rgba(77, 90, 229, 1)
-        }
+            }
+        
     
         .btn-market {
             background-color: rgba(231, 233, 252, 1);
-            color: rgba(77, 90, 229, 1)
-        }
-    
-        .list {}
+                color: rgba(77, 90, 229, 1);
+            }        
+       .list {}
     
         .lih {
-                font-family: Roboto;
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 1.20;
@@ -243,7 +216,6 @@ color: #FFFFFF;
         }
     
         .lip {
-                font-family: Roboto;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 1.50;

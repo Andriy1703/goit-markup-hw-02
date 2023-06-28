@@ -166,12 +166,15 @@ body {
 
 /* footer section */
 .footer {
-    background-color: var(--primary-dark-color);
+    background-color:var(--primary-branddark-color);
 }
 
 .logo-white {
     letter-spacing: 0.02em;
     color: var(--primary-cloud-color);
+}
+.link {
+    text-decoration: none;
 }
 
 .footer-text {

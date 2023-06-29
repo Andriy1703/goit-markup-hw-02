@@ -132,7 +132,7 @@ body {
 
 /* section-3 */
 .section-team {
-    background-color: var(--primary-white-color);
+    background-color:var(--primary-cloud-color);
 }
 
 .title {

@@ -30,6 +30,8 @@ body {
 .logo-dark {
     color: var(--primary-branddark-color);
 }
+.link{text-decoration: none;
+}
 
 .list {
     list-style: none;
